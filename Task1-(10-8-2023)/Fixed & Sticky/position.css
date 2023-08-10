@@ -1,0 +1,25 @@
+header, footer{
+    background-color: yellowgreen;
+    padding: 10px solid;
+    border: 5px double;
+    text-align: center;
+
+}
+div{
+    position: sticky;
+    background-color: orange;
+    top: 0px;
+}
+ul li{
+    display: inline-block;
+    padding: 10px;
+}
+h3{
+    position: fixed;
+    max-width: 100px;
+    text-align: center;
+    padding: 8px;
+    background-color: aqua;
+    right: 0px;
+    top: 94px;
+}
