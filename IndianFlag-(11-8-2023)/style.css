@@ -1,0 +1,38 @@
+.main{
+    width: 500px;
+    height: 300px;
+    margin: 200px auto;
+    border: 1px solid;
+    position: relative;
+}
+.saffron{
+    width: 500px;
+    height: 100px;
+    background-color: #FF671F;
+    position: relative;
+}
+.white{
+    width: 500px;
+    height: 100px;
+    background-color: #FFFFFF;
+    position: relative;
+}
+.green{
+    width: 500px;
+    height: 100px;
+    background-color: #046A38;
+    position: relative;
+}
+.navy{
+    width: 100px;
+    height: 100px;
+    background-color: #06038D;
+    position: absolute;
+    border-radius: 50px;
+    top: 100px;
+    left: 200px;
+}
+img{
+    width: 100px;
+    height: 100px;
+}
