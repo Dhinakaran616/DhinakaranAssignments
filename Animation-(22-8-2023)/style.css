@@ -1,0 +1,46 @@
+body{
+    width: 100%;
+    height: 500px;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    width: 95%;
+    height: 500px;
+    border: 2px solid black;
+    position: relative;
+}
+.box{
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    background-color: rgb(145, 238, 69);
+    /* animation-duration: 5s;
+    animation-name: container;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-direction: reverse; */
+    animation: container 5s linear infinite reverse;
+}
+@keyframes container{
+    0%{
+        transform: translateX(0px);
+    }
+    25%{
+        transform: translateY(350px);
+        background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
+    }
+    50%{
+        transform: translate(1066px, 350px);
+        background: linear-gradient(to top, rgba(34,193,195,1) 0%, rgba(253,146,45,1) 100%);
+    }
+    75%{
+        transform: translate(1066px , 0px);
+        background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+    }
+    100%{
+        transform: translateX(0px);
+    }
+}
